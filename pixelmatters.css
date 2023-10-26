@@ -1,0 +1,83 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+.blog { text-decoration: underline; font-weight: bold;}
+.button {
+    background-color: rgb(255, 106, 0);
+    border-radius: 2px;
+    border: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: aliceblue;
+}
+.content{
+    margin: 40px;
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-template-areas: 
+"part1 part1"
+"part2 part3";
+gap: 50px;
+
+}
+.part1{
+    
+    grid-area: part1;
+    display: flex;
+    
+    gap: 20px;
+    
+}
+.part2{
+    
+    grid-area: part2;
+}
+.part3{
+    
+    grid-area: part3;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.photop { border-radius: 200px;
+height: 50px;}
+
+
+.parag1{
+    font-size: 30px;
+    font-weight: 10%;
+}
+
+.image1{
+    background: url(1.JPG);
+    background-size: cover;
+    width:200%;
+}
+.titre1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+ .image2{
+    background: url(2.JPG);
+    background-size: cover;
+    width: 100%;}
+
+
+.image3 {
+    background: url(3.JPG);
+    background-size: cover;
+    width: 100%;}
+
